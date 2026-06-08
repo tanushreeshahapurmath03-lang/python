@@ -82,7 +82,7 @@ pen=10
 notebook=50
 pencil=5
 
-print(pen+notebook+pencil)'''
+print(pen+notebook+pencil)
 
 std1=int(input("std1 marks: "))
 std2=int(input("std2 marks:  "))
@@ -95,3 +95,75 @@ percentage=(total/500)*100
 
 print("total=",total)
 print("Percentage=",percentage)
+
+
+#concatenation
+
+a="tanushree"
+b="shahapurmath"
+full_name=a + " " + b
+print(full_name)
+
+message = "warnings!"
+print(message)
+print(message.upper())
+print(message.lower())
+print(message.split())
+print(message.replace("warnings","error"))
+
+amount=int(input("mobile recharge: "))
+total=amount+0.18
+print("Total=",total)
+
+#name=int(input("enter employee salary: "))
+
+employee_salary=30000
+annual_salary=employee_salary*12
+six_month=employee_salary*6
+
+print(annual_salary)
+print(six_month)
+
+ticket=int(input("enter a number of movie tickets"))
+total=ticket*180
+print("total no of tickets=",total)
+
+consultation_fee=500
+a=int(input("enter a medicine cost: "))
+b=int(input("enter a lab test cost: "))
+
+total=int(a+b)+500
+print(consultation_fee)
+print(a)
+print(b)
+
+print("total bill is = ", total)
+
+T_shirt=599
+cap=299
+
+shirt=int(input("enter a number of t_shirts: "))
+capp=int(input("enter a number of caps:"))
+
+total_shirt=shirt*T_shirt
+print("total_shirt",total_shirt)
+total_cap=capp*cap
+print("total_cap",total_cap)
+
+total_amount=total_shirt+total_cap
+print("total_amount",total_amount)'''
+
+
+tution_fee=35000
+exam_fee=2500
+library_fee=1500
+
+total_fee=tution_fee+exam_fee+library_fee
+print("total fee=",total_fee)
+
+hostel_fee=int(input("enter a hostel fee: "))
+final_fee=hostel_fee+total_fee
+print("final_fee",final_fee)
+
+
+
