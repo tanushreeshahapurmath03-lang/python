@@ -151,7 +151,7 @@ total_cap=capp*cap
 print("total_cap",total_cap)
 
 total_amount=total_shirt+total_cap
-print("total_amount",total_amount)'''
+print("total_amount",total_amount)
 
 
 tution_fee=35000
@@ -163,7 +163,14 @@ print("total fee=",total_fee)
 
 hostel_fee=int(input("enter a hostel fee: "))
 final_fee=hostel_fee+total_fee
-print("final_fee",final_fee)
+print("final_fee",final_fee)'''
+
+
+name="tanushree"
+print(name[: : 2])
+print(name[2 : 6])
+
+
 
 
 
